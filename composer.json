@@ -1,0 +1,35 @@
+{
+	"name": "backboneit/contao-mod-article-translated",
+	"description": "Extension of the backboneit/contao-mod-article module and CEs to automatically take language references, provided by contao-community-alliance/language-relations, into account.",
+	"keywords": [ "translation", "module", "content", "insert-tags", "article", "contao" ],
+	"type": "contao-module",
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "Oliver Hoff",
+			"email": "oliver@hofff.com",
+			"homepage": "http://hofff.com/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"contao/core": ">=2.11,<4",
+		"backboneit/contao-mod-article": ">=2.4,<3",
+		"contao-community-alliance/language-relations": ">=1,<2"
+	},
+	"autoload": {
+		"psr-0": {
+			"bbit": "src/"
+		}
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"contao-module": "system/modules/backboneit_mod_article_translated"
+			},
+			"runonce": [
+			]
+		}
+	}
+}
