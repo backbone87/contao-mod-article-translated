@@ -13,10 +13,10 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3",
-		"contao/core": ">=2.11,<4",
-		"backboneit/contao-mod-article": ">=2.4,<3",
-		"contao-community-alliance/language-relations": ">=1,<2"
+		"php": "^5.3",
+		"contao/core": "^2.11 || ^3.0",
+		"backboneit/contao-mod-article": "^2.4",
+		"contao-community-alliance/language-relations": "^1.0"
 	},
 	"autoload": {
 		"psr-0": {
