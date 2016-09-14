@@ -2,7 +2,7 @@
 
 namespace bbit\contao\article\translated;
 
-use ContaoCommunityAlliance\Contao\LanguageRelations\LanguageRelations;
+use Hofff\Contao\LanguageRelations\LanguageRelations;
 
 class ContentPageArticles extends \ContentIncludePageArticles {
 
