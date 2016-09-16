@@ -4,6 +4,10 @@ namespace bbit\contao\article\translated;
 
 use Hofff\Contao\LanguageRelations\LanguageRelations;
 
+/**
+ * @author Oliver Hoff <oliver@hofff.com>
+ * @deprecated
+ */
 class ContentPageArticles extends \ContentIncludePageArticles {
 
 	public function __construct($element) {
